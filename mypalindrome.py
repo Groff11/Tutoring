@@ -21,6 +21,7 @@ def help():
 		if Palindrome == (1):
 			print ("This Is A Palindrome")
 		else:
-			print ("This Is Not A Palindrome")
+			word = "".join(str(x) for x in word)
+			print ("{0} Is Not A Palindrome".format(word))
 help()
 input()
