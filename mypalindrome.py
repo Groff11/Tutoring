@@ -1,7 +1,6 @@
-#random_words = ['tacocat','eye','fire','kayak','racecar']
-#while (len(random_words) > 0):
-#	print (random_words)
-#	random_words.pop()
+# rewrite this function so it takes a string argument
+# determine if that string is a palindrome
+# return True if palindrome, False if not
 def help():
 	all_words = ["makem","tacocat","racecar","lol","leg"]
 	while len(all_words) > 0:
@@ -22,6 +21,7 @@ def help():
 		if Palindrome == (1):
 			first_word = "".join(str(x) for x in first_word)
 			print ("{0} is a palindrome".format(first_word))
+			return "{0} is a palindrome".format(first_word)
 		else:
 			first_word = "".join(str(x) for x in first_word)
 			print ("{0} is not a palindrome".format(first_word))
