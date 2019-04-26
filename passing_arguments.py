@@ -1,7 +1,7 @@
-def myfunction(word, number):
-	print('this is a {}, and this is a number: {}'.format(word, number))
-myfunction('word', 122)
+from mypalindrome import help
 
-def myfunction2(args):
+def myfunction(args):
 	print(args)
-myfunction2(['dad'])
+
+words = input()
+help([words])
