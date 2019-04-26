@@ -3,8 +3,9 @@
 #	print (random_words)
 #	random_words.pop()
 def help():
-	all_words = ["Merlin","tacocat","racecar","lol","leg"]
+	all_words = ["makem","tacocat","racecar","lol","leg"]
 	while len(all_words) > 0:
+		first_word = list(all_words[0])
 		Palindrome = (1)
 		word = list(all_words[0])#["M" "e" "r" "l" "i" "n"] Create A List Of Characters From #1 of All_Words
 		while len(word) > 1:
@@ -19,9 +20,9 @@ def help():
 				word.pop()
 		del all_words[0]
 		if Palindrome == (1):
-			print ("This Is A Palindrome")
+			first_word = "".join(str(x) for x in first_word)
+			print ("{0} is a palindrome".format(first_word))
 		else:
-			word = "".join(str(x) for x in word)
-			print ("{0} Is Not A Palindrome".format(word))
+			first_word = "".join(str(x) for x in first_word)
+			print ("{0} is not a palindrome".format(first_word))
 help()
-input()
