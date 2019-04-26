@@ -1,4 +1,3 @@
-# determine if that string is a palindrome
 # return True if palindrome, False if not
 def help(all_words):
 	while len(all_words) > 0:
