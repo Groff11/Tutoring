@@ -1,0 +1,6 @@
+print ("Give me a first factor")
+factor1 = input()
+print ("Give me a second factor")
+factor2 = input()
+result = int(factor1) * int(factor2)
+print ("Result is {}".format(result))
