@@ -1,3 +1,4 @@
 number1 = input()
-print(number1+3,'is a better number')
+print("That number plus 3 is")
+print(number1+3)
 input()
