@@ -1,0 +1,6 @@
+print('give me a numerator')
+numerator = input()
+print('give me a denominator')
+denominator = input()
+result = int(numerator) / int(denominator)
+print('result is: {}'.format(result))
