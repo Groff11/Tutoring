@@ -1,0 +1,6 @@
+print('give me a number')
+first_number = input()
+print('give me a second number')
+second_number = input()
+result = int(first_number) - int(second_number)
+print('result is: {}'.format(result))
