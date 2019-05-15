@@ -1,7 +1,8 @@
 # return True if palindrome, False if not
 def help(word=''):
 	first_word = word
-	while first_word != bad: # boolean expression - expression of True or False
+	empty_string = ''
+	while first_word != empty_string: # boolean expression - expression of True or False
 		palindrome = 1
 		while len(first_word) > 1:
 			first = first_word[0]
@@ -13,7 +14,7 @@ def help(word=''):
 				palindrome = 1
 				del first_word (0)
 				first_word.pop()
-		first_word = bad
+		first_word = empty_string
 		if palindrome == 1:
 			first_word = "".join(str(x) for x in first_word)
 			print ("{0} is a palindrome".format(first_word))
